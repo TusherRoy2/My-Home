@@ -616,8 +616,8 @@ header nav .resIcon a{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width:95%;
-    height: 103rem;
+    width:95% !important;
+    height: 103rem !important;
     margin: auto;
     position: relative;
 }
