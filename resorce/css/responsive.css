@@ -1,0 +1,426 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width:1300px){
+    header nav .menu ul li {
+        margin-right: 4rem;
+    }
+    .newsletterText {
+        padding: 20rem 0 0;
+    }
+    .newsletterText h4 ,
+    .newsletterText h5 {
+        font-size: 3rem;
+    }
+    .bodyImg2 {
+        width: 50rem !important;
+    }
+}
+
+@media (max-width:1200px){
+    
+    .search-area h2 {
+        padding-top: 31rem;
+    }
+    /* ?SEARCH AREA END */
+
+    header nav .menu{
+        width: 100%;
+        height: 30rem;
+        display: none;
+        background: #CB9E61;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+    header nav .menu ul{
+        display: block;
+        position: absolute;
+        left:3rem;
+    }
+    header nav .menu ul .boldLi{
+        display: block;
+        margin-top: 2rem;
+    }
+    header nav .menu ul .boldLi::before {
+        width: 2.1rem;
+        height: .2rem;
+        top: -1rem;
+        left: 0rem;
+        background: #000;
+    }
+    header nav .menu ul li a,
+    header nav .menu ul .boldLi li a {
+        font-size: 2rem;
+        color: #000;
+        text-align: left;
+    }
+    header .menuSearchBar input{
+        width:25rem;
+        height:3rem;
+        position: absolute;
+        right:3rem
+    }
+    header nav .resIcon{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    header nav .resIcon a{
+        width: 2.5rem;
+        display: block;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
+    .bodyIMG img {
+        width: 34rem;
+        bottom: -10rem;
+        right: 0;
+    }
+    .hero-imgSnow {
+        top: -5rem;
+        right: -10rem;
+        width: 65rem;
+        height: auto;
+    }
+
+    /* HEADER-AREA END */
+
+    .homeDecorate {
+        width: 75%;
+        margin: 0 auto 7rem;
+    }
+    /* *HOME-DECORATION END */
+
+    .typeGirlText h5,
+    .typeGirlText h4 {
+        font-size: 2.7rem;
+        margin-bottom: 5rem;
+    }
+    .typeGirlText span {
+        font-size: 1.7rem;
+        margin-bottom: 5rem;
+    }
+    .typeGirlText p {
+        font-size: 2.7rem;
+    }
+    /* *TYPEING-GIRL END */
+
+    .newsletterText h4, 
+    .newsletterText h5 {
+        font-size: 2.5rem;
+    }
+    .newsletterText {
+        padding: 17rem 0 0;
+        width: 75%;
+        margin-left: 25%;
+    }
+    .newsletterText form input {
+        width: 45rem !important;
+    }
+    .newsletterText p {
+        font-size: 1.2rem;
+    }
+    /* ?NEWSLETTER END */
+
+    .newSeason .seasonImg1 {
+        width: 32rem;
+        height: auto;
+        margin: 33rem auto 0;
+    }
+    .newSeason .seasonImg2 {
+        width: 40rem;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .newSeason .seasonImg3 {
+        width: 15rem;
+        height: auto;
+        margin: 0 auto;
+    }
+    .newSeason .seasonImg2 p {
+        font-size: 3rem;
+    }
+    /* ?NEW-SEASON END */
+
+    .disImg {
+        width: 92%;
+    }
+    .disImg .disText {
+        right: -6rem;
+    }
+
+    /* ?DISCOUNT END */
+
+    footer .footerNew {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    footer .fBtmText{
+        text-align: center;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width:991px){
+    html {
+        font-size: 56.5%;
+    }
+    .homeDecorate {
+        width: 80%;
+        margin: 0 auto 7rem;
+    }
+    .nineInOneGrid{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 0rem 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3.5rem 0rem;
+        margin: 3rem 0 3rem;
+    }
+    /* *nineInOneGrid END */
+
+    .typeGirlText{
+        text-align: center;
+    }
+    /* *TYPING-GIRL END */
+
+    .bodyImg2 {
+        width: 30rem !important;
+    }
+    .newsletterText h4, .newsletterText h5 {
+        font-size: 2.5rem;
+        width: 70%;
+        margin-left: 25%;
+    }
+    .newsletterText p {
+        width: 70%;
+        margin-left: 30%;
+    }
+    .newsletterText p {
+        width: 70%;
+        margin-left: 30%;
+    }
+    .newsletterImg {
+        width: 50rem;
+        margin: auto;
+    }
+    .newsletterImg img{
+        width: 60%;
+        margin: auto;
+        height: auto;
+    }
+    /* NEWALETTER END */
+
+    .newSeason .seasonImg1 {
+        width: 32rem;
+        height: auto;
+        margin: 5rem auto 4rem;
+    }
+    .bodyImg3 {
+        width: 50rem;
+        position: absolute;
+        top: 40rem;
+        right: 0;
+        z-index: -1;
+    }
+    /* ?NEW-SEASON END */
+
+    .disImg {
+        width: 82%;
+    }
+    .disImg .disText {
+        right: -16rem;
+    }
+    /* ?DISCOUNT END */
+
+    footer{
+        text-align: center;
+    }
+    footer .ftrForm {
+        width: 100%;
+        height: auto;
+    }
+    footer p {
+        width: 70%;
+        margin: 2rem auto;
+    }
+    footer form input ,
+    footer form button {
+        width: 60rem;
+        margin: 0 auto 1rem;
+        display: block;
+        font-size:1.4rem;
+    }
+    footer h6 {
+        font-size: 1.4rem;
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
+        margin: 2rem auto 0;
+        width: 70%;
+    }
+    footer ul {
+        -moz-text-align-last: left;
+             text-align-last: left;
+        width: 26rem;
+        margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    footer .nBold{
+        margin-right:3rem;
+    }
+}
+
+@media (max-width:768px){
+    html {
+        font-size: 50.5%;
+    }
+    .search-area h2 {
+        padding-top: 40rem;
+    }
+    /* SEARCH AREA END */
+
+    .newSeason .seasonImg3 {
+        width: 20rem;
+        height: auto;
+        margin: 2.5rem auto 0;
+    }
+
+    /* ?NEW SEASON END */
+
+    .disImg .disText {
+        right: -13rem;
+        bottom: -2rem;
+    }
+    .disImg .disText h1 {
+        font-size: 8rem;
+    }
+    .disImg .disText .twinText h4 {
+        font-size: 3.5rem;
+    }
+    .disImg .disText .twinText h5 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width:680px){
+    html {
+        font-size: 42.5%;
+    }
+    .search-area h2 {
+        padding-top: 48rem;
+    }
+    .heroSection h4 {
+        font-size: 2rem;
+    }
+    /* HEADER AREA END */
+
+    .homeDecorate p {
+        font-size: 1.2rem;
+    }
+    /* HOME-DECORATOR END */
+
+    .newsletterText h4, .newsletterText h5 {
+        font-size: 2.8rem;
+        width: 80%;
+        margin-left: 20%;
+    }
+    .newsletterText form input {
+        width: 48rem !important;
+    }
+    .newsletterText p {
+        width: 80%;
+        margin: 0 0 2rem 20%;
+        font-size: 1.5rem;
+      }
+}
+
+@media (max-width:580px){
+    html {
+        font-size: 36.5%;
+    }
+    .search-area form input {
+        padding: 1.5rem 2rem;
+        font-size: 2rem;
+    }
+    .search-area h2 {
+        padding-top: 56rem;
+    }
+    header nav .resIcon a {
+        width: 3.5rem;
+    }
+    header .menuSearchBar input {
+        width: 27rem;
+        height: 4.5rem;
+        position: absolute;
+        right: 3rem;
+    }
+    /* HEADER-AREA END */
+
+    .typeingGirl {
+        width: 95%;
+        margin: 0 auto 2rem;
+    }
+    /* TypeingGirl END */
+
+    .newsletterText form input ,
+    .newsletterText form input[type="submit"] {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:480px){
+    html {
+        font-size: 30.5%;
+    }
+    .socialIcon a i {
+        font-size: 4rem;
+    }
+    .search-area h2 {
+        padding-top: 70rem;
+    }
+    .homeDecorate p {
+        font-size: 1.4rem;
+    }
+    /* *HOME-DECORATION END */
+
+    .newsletterText form input ,
+    .newsletterText form input[type="submit"] {
+        width: 48rem !important;
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width:380px){
+    html {
+        font-size: 26.5%;
+    }
+    .search-area h2 {
+        padding-top: 85rem;
+    }
+    header nav .menu ul .boldLi::before {
+        width: 2.1rem;
+        height: 0.5em;
+    }
+    /* HEADER AREA END */
+
+    
+}
