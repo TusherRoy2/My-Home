@@ -612,7 +612,7 @@ header nav .resIcon a{
 
 /* *DELIVERY-FROM START */
 .deliveryForm{
-    background-image: url(../../resorce/images/kitchen.png);
+    background-image: url(../resorce/images/kitchen.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
